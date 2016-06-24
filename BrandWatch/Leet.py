@@ -81,7 +81,7 @@ class Leet:
                 result += self.get_permutations(self.word[i])
             elif self.word[i] == self.word[i-1] and not duplicate:
                 duplicate = True
-                result += '?'
+                result += '+'
             elif self.word[i] != self.word[i-1]:
                 duplicate = False
                 result += self.get_permutations(self.word[i])
