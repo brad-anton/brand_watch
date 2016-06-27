@@ -58,7 +58,10 @@ class Leet:
                 '9':self.nine }
 
     def get_permutations(self, letter):
-        permutations = self.alphabet[letter]
+        try:
+            permutations = self.alphabet[letter]
+        except KeyError:
+            permutations = letter
         regex = '['
         for p in permutations[:-1]:
             regex += '{0}|'.format(p)
