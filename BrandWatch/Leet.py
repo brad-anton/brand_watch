@@ -1,6 +1,8 @@
 """
+Leet.py
+@brad_anton
 
-Based of of this LeetSpeek generator:
+Inspired by of this LeetSpeek generator:
 https://github.com/floft/leetspeak/blob/master/LeetSpeak.py
 """
 class Leet:

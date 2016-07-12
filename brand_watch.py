@@ -1,7 +1,13 @@
+"""
+brand_watch.py
+@brad_anton
+
+"""
+
 from BrandWatch import Watcher
 import argparse
 
-api_key = None # e.g. '12345678-1234-1234-1234-1234567890ab'
+api_key = None
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

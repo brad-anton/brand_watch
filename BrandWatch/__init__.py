@@ -1,3 +1,10 @@
+"""
+__init__.py
+@brad_anton
+
+Implements the Watcher class
+"""
+
 import investigate
 import datetime
 
